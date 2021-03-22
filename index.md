@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en-us">
   
   <head>
@@ -14,6 +12,7 @@
     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
 </head>
+<body>
     <section class="main-content">
       
       <h1 id="overview">Abstract</h1>
