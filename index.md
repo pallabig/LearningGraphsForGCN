@@ -15,11 +15,6 @@
   </script>
 </head>
 
-
-  <body>
-    <section class="page-header"> 
-  <h1 class="project-name">Learning Graphs for Knowledge Transfer with Limited Labels</h1>
-  <h2 class="project-tagline">Pallabi Ghosh Nirat Saini Larry S. Davis Abhinav Shrivastava</h2>
 </section>
 
 
