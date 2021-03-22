@@ -25,6 +25,8 @@
       
       <h1 id="overview">Additional details and code is coming soon!</h1>
 
+    </section>
+
   </body>
 </html>
 
