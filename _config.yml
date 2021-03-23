@@ -4,6 +4,8 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 title: Learning Graphs for Knowledge Transfer with Limited Labels
-description: |+
+description: >+
              Pallabi Ghosh,        Nirat Saini,        Larry S. Davis,        Abhinav Shrivastava 
-description: University of Maryland
+             
+             
+             University of Maryland
