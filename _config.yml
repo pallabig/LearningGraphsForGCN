@@ -4,10 +4,9 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 title: Learning Graphs for Knowledge Transfer with Limited Labels
-subtitle: >+
-             Pallabi Ghosh,        Nirat Saini,        Larry S. Davis,        Abhinav Shrivastava 
+description: Pallabi Ghosh,        Nirat Saini,        Larry S. Davis,        Abhinav Shrivastava \n\n\n University of Maryland
              
-description: University of Maryland
+# description: University of Maryland
 github:
   github.repository_url: https://github.com/pallabig/LearningGraphsForGCN.git
   zip_url: https://github.com/pallabig/LearningGraphsForGCN/archive/refs/heads/gh-pages.zip
