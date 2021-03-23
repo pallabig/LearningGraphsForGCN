@@ -9,6 +9,6 @@ description: >+
              
              University of Maryland
 github:
-  repository_url: https://github.com/pallabig/LearningGraphsForGCN.git
+  repository_url: https://github.com/pallabig/LearningGraphsForGCN
   zip_url: https://github.com/pallabig/LearningGraphsForGCN/archive/refs/heads/gh-pages.zip
   tar_url: https://github.com/pallabig/LearningGraphsForGCN/archive/refs/heads/gh-pages.tar.gz
