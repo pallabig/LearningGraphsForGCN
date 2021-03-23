@@ -1,13 +1,13 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+# title: Cayman theme
+# description: Cayman is a clean, responsive theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
 title: Learning Graphs for Knowledge Transfer with Limited Labels
-description: Pallabi Ghosh,        Nirat Saini,        Larry S. Davis,        Abhinav Shrivastava  (University of Maryland)
-# params:
-#   description: "University Of Maryland"
-#   authors: "Mark Otto, Jacob Thornton, and Bootstrap contributors"       
+# description: Pallabi Ghosh,        Nirat Saini,        Larry S. Davis,        Abhinav Shrivastava  (University of Maryland)
+params:
+  description: "University Of Maryland"
+  authors: "Mark Otto, Jacob Thornton, and Bootstrap contributors"       
 # description: University of Maryland
 github:
   repository_url: https://github.com/pallabig/LearningGraphsForGCN
