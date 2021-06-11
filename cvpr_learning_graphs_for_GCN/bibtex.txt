@@ -1,0 +1,8 @@
+@InProceedings{Ghosh_2021_CVPR,
+    author    = {Ghosh, Pallabi and Saini, Nirat and Davis, Larry S. and Shrivastava, Abhinav},
+    title     = {Learning Graphs for Knowledge Transfer With Limited Labels},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {11151-11161}
+}

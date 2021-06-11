@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0053)https://pallabig.github.io/LearningGraphsForGCN -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title></title>
+	<style>
+		td {
+		   padding: 0; 
+		   margin: 0;
+		}
+	</style>
+  </head>
+  <body style="background:#FFFFFF">
+    <table height="100%" style="margin-top: 3rem;">
+      <tbody>
+        <tr>
+          <td width="10%" style="text-align: center;"> 
+		  </td>
+          <td style="text-align: center">
+            <h1>Learning Graphs for Knowledge Transfer with Limited Labels</h1>
+			<h2>CVPR 2021</h2>
+              <h3 style="margin: 0px">Pallabi Ghosh &nbsp;&nbsp;&nbsp;&nbsp;  Nirat Saini &nbsp;&nbsp;&nbsp;&nbsp;  Larry Davis &nbsp;&nbsp;&nbsp;&nbsp;  Abhinav Shrivastava</h3>
+			  <h3>University Of Maryland - College Park</h3>
+          </td>
+          <td width="10%" style="text-align: center;"> 
+			  
+			  </td>
+        </tr>
+
+          <tr><td width="10%"><br>
+          </td>
+          <td style="text-align: center">
+			  <a href="https://pallabig.github.io/LearningGraphsForGCN" style="font-size: 1.25rem;color: #007bff;">Arxiv</a>
+		  <b style="word-space:2em">&nbsp;&nbsp;</b> <a href="https://github.com/pallabig/LearningGraphsForGCN.code.git" style="font-size: 1.25rem;color: #007bff;">Github</a>
+          </td>
+          <td width="10%"><br>
+          </td>
+        </tr>
+		
+		<tr>
+			<td width="10%"><br>
+			</td>
+			<td style="text-align: center;">
+			  <img width="80%" alt="" src="./cvpr_learning_graphs_for_GCN/intro_gif.gif">
+		</tr>
+		<tr>
+          <td width="10%"><br>
+          </td>
+          <td style="text-align: left;">
+            <h2>Objective</h2>
+            <p style="color: #212529;font-size: 1rem;color: #212529;font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;"> Given an input Knowledge Graph (KG), we learn to update the KG while training the task specific Graph Convolutional Network (GCN). For instance, the example above shows the initial neighbors of action class <i>Pommel Horse</i> based on language based embeddings in the KG. While training GCN, we update the KG, and the neighbors are updated as well. It can be observed that due to <i>Horse</i>, initial top 5 neighbors included <i>Horse Riding</i> and <i>Horse Race</i>, but after updates, neighbors are more meaningful and closer to gymnastics related activities such as <i>Balance Beam</i> and <i>Vault</i>.</p>
+           </td>
+          <td width="10%"><br>
+          </td>
+        </tr>
+		
+
+
+		<tr>
+          <td width="10%"><br>
+          </td>
+          <td style="text-align: left;">
+            <h2>Abstract</h2>
+            <p style="color: #212529;font-size: 1rem;color: #212529;font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;">Fixed input graphs are a mainstay in approaches that utilize Graph Convolution Networks (GCNs) for knowledge transfer. The standard paradigm is to utilize relationships in the input graph to transfer information using GCNs from training to testing nodes in the graph; for example, the semi-supervised, zero-shot, and few-shot learning setups. We propose a generalized framework for learning and improving the input graph as part of the standard GCN-based learning setup. Moreover, we use additional constraints between similar and dissimilar neighbors for each node in the graph by applying triplet loss on the intermediate layer output. We present results of semi-supervised learning on Citeseer, Cora, and Pubmed benchmarking datasets, and zero/few-shot action recognition on UCF101 and HMDB51 datasets, significantly outperforming current approaches. We also present qualitative results visualizing the graph connections that our approach learns to update.</p>
+			
+			</td>
+          <td width="10%"><br>
+          </td>
+        </tr>
+
+        <tr>
+          <td width="10%"><br>
+          </td>
+          <td style="text-align: left;">
+            <h2>System Overview</h2>
+            <img width="100%" alt="" src="./cvpr_learning_graphs_for_GCN/system_overview.jpg">
+            </td>
+          <td width="10%"><br>
+          </td>
+        </tr>
+	
+
+    <!--
+	
+	<tr><td></td>
+					<td style="text-align: left;">
+						            <h2>Bibtex</h2>
+									<pre style="font-size:12px;background-color:#f5f5f5;padding: 9.5px;border: 1px solid #ccc;border-radius: 4px;">@inproceedings{ghosh2021learning,
+title={Learning Graphs for Knowledge Transfer with Limited Labels},
+author={Ghosh, Pallabi and Saini, Nirat and Davis, Larry and Shrivastava, Abhinav},
+booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2021}
+}
+
+									</pre>
+					</td>
+	<td></td></tr>
+	
+    -->
+        <tr>
+          <td width="10%"><br>
+          </td>
+          <td style="text-align: left;">
+            <h2>Results </h2>
+            <img width="100%" alt="" src="./cvpr_learning_graphs_for_GCN/result.png">
+            </td>
+          <td width="10%"><br>
+          </td>
+        </tr>
+    
+		<tr>
+			<!-- <td style="text-align: left;">
+            <h2>Video Explaination</h2> -->
+			<td width="10%"><br>          </td>
+			<td style="text-align: center;">
+				<video width="640" height="480" controls>
+					<source src="5566_presentation_video.mp4" type="video/mp4">
+				</video>
+			</td>
+			<td width="10%"><br>          </td>
+		</tr>
+
+	<tr><td></td>
+
+					<td style="text-align: left;">
+						            <h2>Acknowledgements</h2>
+									<p style="color: #212529;font-size: 1rem;color: #212529;font-family: -apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,&quot;Noto Sans&quot;,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;,&quot;Noto Color Emoji&quot;;">This work was supported by the Air Force, via Small Business Technology Transfer (STTR) Phase I (FA865019P6014) and Phase II (FA864920C0010), and Defense Advanced Research Projects Agency (DARPA) SAIL-ON program (W911NF2020009). The website design is based on <a href="https://ahmdtaha.github.io/paper/cvpr_ahmed_knowledge">this project page</a>.
+					</p></td>
+	<td></td></tr>
+		
+		
+      </tbody>
+    </table>
+  
+
+</body></html>
